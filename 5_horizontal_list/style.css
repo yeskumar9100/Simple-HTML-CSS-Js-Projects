@@ -1,0 +1,21 @@
+.horizontal-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.horizontal-list li {
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: #f70c0c;
+  border-radius: 6px;
+  color: rgb(4, 4, 4);
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+.horizontal-list li:hover {
+  color: rgb(255, 255, 255);
+}
